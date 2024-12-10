@@ -9,7 +9,7 @@ fi
 
 # Do not change code above this line. Use the PSQL variable above to query your database.
 
-# Empty the tables (optional, useful during testing)
+# Empty the tables
 echo "$($PSQL "TRUNCATE TABLE games, teams RESTART IDENTITY")"
 
 # Read games.csv and process each row
